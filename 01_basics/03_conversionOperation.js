@@ -43,3 +43,23 @@ console.log("1"+2);
 console.log(1+"2");
 console.log("1"+2+2);
 console.log(1+2+"1"+2);
+
+console.log(2+3*(6%2));
+console.log(true);
+console.log(+true);
+console.log(+"");
+
+let num1,num2,num3;
+num1=num2=num3=3+3;
+
+/*If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.*/
+
+/*If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
+*/
+let gameCounter=100;
+let x=gameCounter++;
+console.log(x);
+
+let gameCounter1=100;
+let y=++gameCounter1;
+console.log(y);
